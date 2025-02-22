@@ -42,13 +42,13 @@ This is a full-stack web application for managing flashcards using the Leitner S
      
    **Backend (`.env`)**:
    ```env
-   PORT=5000
-   MONGODB_URI=mongodb://localhost:27017/flashcard-app
+   PORT=8000
+   MONGODB_URI="MongoDB URI"
    JWT_SECRET=Your_tocken
    ```
    **Frontend (`.env`)**:
    ```env
-   REACT_APP_API_URL=http://localhost:5000/api
+   REACT_APP_API_URL=http://localhost:8000/api
    ```
 
 4. **Start MongoDB**:
